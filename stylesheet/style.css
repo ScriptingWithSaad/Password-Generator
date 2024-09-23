@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: gilroy, monospace;
+}
+
+
+
+body {
+    background: #002339;
+    color: #fff;
+}
+
+.container {
+    width: 70%;
+    max-width: 40vw;
+    margin: 10vw auto 0;
+}
+
+
+.container h1 {
+    font-size: 3.5vw;
+}
+
+.container h1 span {
+    color: #019f55;
+    font-size: 3.5vw;
+    padding-bottom: .4vw;
+    border-bottom: .3vw solid #019f55;
+}
+
+/* display */
+
+.display {
+    margin: 3vw 0;
+    background-color: aliceblue;
+    padding: .8vw 2.5vw;
+    border-radius: 3.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#password {
+    border: none;
+    outline: none;
+    font-size: 2vw;
+    background-color: transparent;
+}
+
+.display i {
+    font-size: 1.5vw;
+    cursor: pointer;
+    color: #000;
+}
+
+/* button */
+
+button {
+    color: #fff;
+    font-size: 1.8vw;
+    border: none;
+    outline: none;
+    padding: .8vw 2vw;
+    border-radius: 3VW;
+    cursor: pointer;
+    background: #019f55;
+}
+
+
+
+/* Responsive Styles for Screen Size 576px */
+@media only screen and (max-width: 576px) {
+
+    .container {
+        width: 70%;
+        max-width: 60vw;
+        margin: 10vw auto 0;
+    }
+
+    .container h1 {
+        font-size: 5.5vw;
+    }
+
+    .container h1 span {
+        font-size: 5.5vw;
+        padding-bottom: 1vw;
+    }
+
+    .display {
+        margin: 5vw 0;
+        padding: 1.5vw 3.5vw;
+    }
+
+    #password {
+        font-size: 3vw;
+    }
+
+    .display i {
+        font-size: 3vw;
+    }
+
+    button {
+        font-size: 3vw;
+        padding: 1.5vw 2.5vw;
+    }
+}
